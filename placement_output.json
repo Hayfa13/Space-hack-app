@@ -1,0 +1,38 @@
+{
+    "success": true,
+    "placements": [
+        {
+            "itemId": "002",
+            "containerId": "contB",
+            "position": {
+                "startCoordinates": {
+                    "width": 0,
+                    "depth": 0,
+                    "height": 0
+                },
+                "endCoordinates": {
+                    "width": 50,
+                    "depth": 15,
+                    "height": 15
+                }
+            }
+        },
+        {
+            "itemId": "001",
+            "containerId": "contA",
+            "position": {
+                "startCoordinates": {
+                    "width": 0,
+                    "depth": 0,
+                    "height": 0
+                },
+                "endCoordinates": {
+                    "width": 10,
+                    "depth": 20,
+                    "height": 10
+                }
+            }
+        }
+    ],
+    "rearrangements": []
+}

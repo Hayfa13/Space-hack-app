@@ -1,0 +1,16 @@
+{
+    "wasteItems": [
+        {
+            "itemId": "001",
+            "name": "Food Packet",
+            "width": 10,
+            "depth": 10,
+            "height": 20,
+            "priority": 80,
+            "expiryDate": "2025-05-20",
+            "usageLimit": 30,
+            "preferredZone": "Crew Quarters"
+        }
+    ],
+    "note": "Items with expiryDate before 2025-06-01 considered waste."
+}

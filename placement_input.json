@@ -1,0 +1,43 @@
+{
+    "items": [
+      {
+        "itemId": "001",
+        "name": "Food Packet",
+        "width": 10,
+        "depth": 10,
+        "height": 20,
+        "priority": 80,
+        "expiryDate": "2025-05-20",
+        "usageLimit": 30,
+        "preferredZone": "Crew Quarters"
+      },
+      {
+        "itemId": "002",
+        "name": "Oxygen Cylinder",
+        "width": 15,
+        "depth": 15,
+        "height": 50,
+        "priority": 95,
+        "expiryDate": "2025-08-01",
+        "usageLimit": 100,
+        "preferredZone": "Airlock"
+      }
+    ],
+    "containers": [
+      {
+        "containerId": "contA",
+        "zone": "Crew Quarters",
+        "width": 100,
+        "depth": 85,
+        "height": 200
+      },
+      {
+        "containerId": "contB",
+        "zone": "Airlock",
+        "width": 50,
+        "depth": 85,
+        "height": 200
+      }
+    ]
+  }
+  
