@@ -27,13 +27,13 @@ class Position(BaseModel):
 class Item(BaseModel):
     itemId: str
     name: str
-    width: int
-    depth: int
-    height: int
+    width: float
+    depth: float
+    height: float
     priority: int
-    expiryDate: str
-    usageLimit: int
     preferredZone: str
+    expiryDate: str  
+    usageLimit: int  
 
 class Container(BaseModel):
     containerId: str
